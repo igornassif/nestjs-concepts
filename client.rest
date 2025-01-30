@@ -9,3 +9,8 @@ GET {{baseUrl}}
 
 # @name ManualConceptsControllerHome
 GET {{baseUrl}}/manual-concepts
+
+### AutomaticConceptsController
+
+# @name AutomaticConceptsControllerHome
+GET {{baseUrl}}/automatic-concepts
