@@ -4,3 +4,8 @@
 
 # @name AppControllerGetHello
 GET {{baseUrl}}
+
+### ManualConceptsController
+
+# @name ManualConceptsControllerHome
+GET {{baseUrl}}/manual-concepts
