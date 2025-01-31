@@ -1,8 +1,9 @@
 import { Get, Module } from "@nestjs/common";
 import { ManualConceptsController } from "./manual-concepts.controller";
+import { ManualConceptsService } from "./manual-concepts.service";
 
 @Module({
     controllers: [ManualConceptsController],
-    providers: []
+    providers: [ManualConceptsService]
 })
 export class ManualConceptsModule {}
